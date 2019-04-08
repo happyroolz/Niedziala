@@ -15,6 +15,7 @@ if Config.MaxInService ~= -1 then
 	TriggerEvent('esx_service:activateService', 'bergenbud', Config.MaxInService)
 end
 
+TriggerEvent('esx_society:registerSociety', 'bergenbud', 'Bergenbud', 'society_bergenbud', 'society_bergenbud', 'society_bergenbud', {type = 'private'})
 
 
 RegisterServerEvent('esx_bergenbudjob:getStockItem')
